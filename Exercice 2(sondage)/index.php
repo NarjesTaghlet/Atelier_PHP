@@ -44,16 +44,7 @@ button:hover {
     background-color: #006778;
 }
 
-#echouer {
-    color: red;
-	font-size: 1.5em;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-}
-#vote{
-	color: green;
-	font-size: 1.5em;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-}
+
 h1{
 	text-align: center;
 }
@@ -65,15 +56,15 @@ h1{
 			if (!$vote) {
             //   echo "merci, votre vote est enregitré ."
 			?>
-			<div id="vote">
+			
 				<h4>Votre vote est enregistré , Merci </h4>                
-			</div>
+			
 	<?php
 			} else {
 	?>        
-				<div id="echouer">
+				
 					<h4>Erreur , Vous avez déjà votez pour <?= ($_COOKIE['radio']) ?>!</h4>                
-				</div>
+				
     <?php
 			}
         }
