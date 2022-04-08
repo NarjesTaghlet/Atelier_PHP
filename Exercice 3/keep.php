@@ -51,7 +51,7 @@
     margin-right: 10px;
     margin-bottom: 10px;
     margin-top: 10px;
-    border: 1px solid grey;
+    border: 2px solid black;
 
     }
     </style>
