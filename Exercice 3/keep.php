@@ -38,7 +38,6 @@
      
     }
     .notes{
-        border: 2px solid black;
         margin-bottom: 20px;
         display: flex;
         justify-content: center;
