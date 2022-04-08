@@ -45,8 +45,9 @@
         flex-wrap: wrap;
     }
     .note{
+    min-width: 100px;
     max-width: 200px;
-    min-width: 200px;
+    height:100px;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
